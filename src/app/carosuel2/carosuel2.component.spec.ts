@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BannerCarosuelComponent } from './banner-carosuel.component';
+import { Carosuel2Component } from './carosuel2.component';
 
-describe('BannerCarosuelComponent', () => {
-  let component: BannerCarosuelComponent;
-  let fixture: ComponentFixture<BannerCarosuelComponent>;
+describe('Carosuel2Component', () => {
+  let component: Carosuel2Component;
+  let fixture: ComponentFixture<Carosuel2Component>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ BannerCarosuelComponent ]
+      declarations: [ Carosuel2Component ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(BannerCarosuelComponent);
+    fixture = TestBed.createComponent(Carosuel2Component);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
